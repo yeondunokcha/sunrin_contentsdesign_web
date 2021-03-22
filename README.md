@@ -7,7 +7,7 @@
 <strong>가끔 html에 글자가 깨지는 경우가 있는 데</strong>
 그럴 때는 아래의 코드를 상단에 추가해 주세요
 ``` html
-  <meta charset="utf-8">
+<meta charset="utf-8">
 ```
 
 ------------
