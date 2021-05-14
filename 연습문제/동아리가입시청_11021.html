@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>동아리 가입 신청 폼</title>
+</head>
+<body>
+    <h1>전공동아리 "동아리명" 강입 신청</h1>
+    <form action="index.html" method="POST">
+    <fieldset>
+        <legend>기본 정보</legend>   
+        <label for="name">이름: </label>
+        <input type="text" id="name" placeholder="홍길동">
+        <label for="classid">학번:</label>
+        <input type="text" id="classid" placeholder="10101">
+        <br>
+        <span>성별</span>
+        <label for="man">남</label>
+        <input type="radio" name="gender" id="man">
+        <label for="woman">여</label>
+        <input type="radio" name="gender" id="woman">
+        <br>
+        <span>학과</span>
+        <select name="majer" id="majer">
+            <option value="01">정보보호과</option>
+            <option value="02">소프트웨어과</option>
+            <option value="03">IT경영과</option>
+            <option value="04">컨텐츠디자인과</option>
+        </select>
+        <hr>
+        <label for="tel">핸드폰번호</label>
+        <input type="tel" name="tel" id="tel" placeholder="010-1234-5678">
+        <br>
+        <label for="email">이메일</label>
+        <input type="email" id="email" placeholder="abc@abc.com">
+        <br>
+        <label for="birth">생일</label>
+        <input type="date" id="birth">
+        </fieldset>
+        <fieldset>
+            <legend>지원동기</legend>
+            <textarea name="지원동기" id="" cols="30" rows="8"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="가입시청">
+        <input type="reset" value="초기화">
+    </form>
+</body>
+</html>
